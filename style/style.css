@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+html,
+body {
+    height: auto;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5rem;
+    height: auto;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+}
+
+#text-declaretion {
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.img {
+    position: relative;
+}
+
+.img-perfil {
+    height: auto;
+    width: 100%;
+}
+
+.overley {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.overley p {
+    color: white;
+}
+
+.overley:hover {
+    opacity: 0.5;
+}
+
+.row .recados {
+    text-align: center;
+}
+
+.row .recados p {
+    color: white;
+}
+
+.row .recados .img {
+    position: relative;
+}
+
+.row .recados .img .overley {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    padding: 1rem;
+}
+
+.row .recados .img .overley p {
+    color: white;
+}
+
+.row .recados .img .overley:hover {
+    opacity: 0.5;
+}
+
+.row .recados p {
+    margin-top: 1rem;
+}
+
+.bg-dark {
+    padding-top: 1rem;
+}
+
+
+.footer {
+    margin-top: 1rem;
+}
+
+
+
+::-webkit-scrollbar{
+   width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.849);
+    border-radius: 10px;
+}
