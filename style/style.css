@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -111,11 +111,28 @@ body {
 
 
 
-::-webkit-scrollbar{
-   width: 5px;
+::-webkit-scrollbar {
+    width: 5px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background: rgba(0, 0, 0, 0.849);
     border-radius: 10px;
+}
+
+.container .video{
+    height: auto;
+    width: 100%;
+}
+
+.carousel-item{
+    height: auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 520px){
+    .container .video video{
+        width: 100%;
+        height: auto;
+    }
 }
